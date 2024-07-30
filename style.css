@@ -1,0 +1,233 @@
+body{
+    margin: 0%;
+    background-color: rgb(255, 227, 227);
+}
+.background img{
+    width: 100%;
+    height: 700px;
+    z-index: -1;
+    padding-bottom: 200px;
+}
+.aka img{
+    position: absolute;
+    left: 1100px;
+    top: 400px;
+    width: 200px;
+    height: 200px;
+}
+.ara img{
+    position: absolute;
+    object-fit: contain;
+    left: 160px;
+    top: 380px;
+    width: 200px;
+    height: 150px;
+}
+.asa img{
+    position: absolute;
+    left: 200px;
+    top: 120px;
+    width: 200px;
+    height: 200px;
+}
+.ada img{
+    position: absolute;
+    left: 1000px;
+    top: 80px;
+    width: 200px;
+    height: 200px;
+}
+.ama img{
+    position: absolute;
+    left: 1000px;
+    top: 1950px;
+    width: 200px;
+    height: 200px;
+}
+.section-title{
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    font-family: 'Comic Sans MS';
+    color: red;
+    top: 20%;
+    left: 35%;
+}
+.section{
+    position: absolute;
+    font-size: 36px;
+    font-family: 'Comic Sans MS';
+    top: 10px;
+    left: 40px;
+    color: rgb(255, 0, 0);
+}
+.about{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.about-img{
+    width: 45%;
+    aspect-ratio: 56/45;
+    object-fit: cover;
+    border-radius: 250px;
+}
+.about-caption{
+    width: 48%;
+    padding-top: 40px;
+}
+.about-name{
+    font-size: 40px;
+}
+.about-job{
+    margin-top: 4px;
+    font-size: 24px;
+}
+.about-text{
+    margin-top: 24px;
+    font-size: 18px;
+}
+.sns {
+    display: flex;
+    margin-top: 24px;
+    gap: 8px;
+}
+.skill{
+    width: 90%;
+    max-width: 1200px;
+    margin: 120px auto 0;
+    text-align: center;
+}
+.skill h2{
+    font-size: 48px;
+    line-height: 1.2;
+    color: #e83878;
+}
+.skill-content{
+    margin-top: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2%;
+}
+.skill-item{
+    width: 23%;
+    margin-bottom: 1%;
+}
+.skill-item img{
+    width: 100%;
+    aspect-ratio: 29/18;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.skill-item span{
+    font-size: 16px;
+    line-height: 1.2;
+    margin-top: 4px;
+    font-weight: 700;
+}
+
+.works-title h2{
+    text-align: left;
+    font-size: 40px;
+    color: black;
+    margin-top: 250px;
+    margin-left: 100px;
+    z-index: 99999999;
+    padding: 0%;
+    letter-spacing: 1.5;
+}
+.works-title::before{
+    content: "Works";
+    display: inline-block;
+    font-size: 160px;
+    font-weight: 900;
+    line-height: 1;
+    color: #e83878;
+    position: absolute;
+    bottom: -157%;
+    left: -4%;
+    opacity: 50%;
+    z-index: -1;
+}
+
+
+.works-list{
+    padding-inline-start: 0%;
+    padding-inline-end: 0%;
+    width: 100%;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1%;
+}
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(255, 227, 227);
+    color: #000;
+  }
+.item_box.-fade-in{
+    width: 24.25%;
+}
+.item_link img{
+    list-style: none;
+    object-fit: cover;
+    }
+    .item_image img{
+        aspect-ratio: 16/9;
+        object-fit: cover;
+        margin-bottom: 4%;
+    }
+    .item_box * {
+        box-sizing: border-box;
+      } 
+       
+      .item_content {
+        position: relative;
+        overflow: hidden;
+      }
+       
+      .item_image img {
+        width: 100%;
+        height: auto;
+        vertical-align: top;
+      }
+       
+      .item_mask {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+      }
+       
+      .item_mask-text {
+        width: 100%;
+        padding: 0.5em;
+        font-size: 2em;
+        color: #fff;
+        text-align: center;
+        position: absolute;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+      }
+      .item_text {
+        margin-top: 10px;
+        text-align: center;
+      }
+       
+      .item_box .item_link:hover .item_mask {
+        opacity: 1;
+      }
+    
+      /* -fade-in */
+      .item_box.-fade-in .item_mask {
+        transition: opacity 1.0s ease;
+      }
+      
